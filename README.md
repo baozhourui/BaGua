@@ -3,6 +3,7 @@
 
 [![PyPI Downloads][pypi-dl-image]][pypi-dl-link]
 [![PyPI Version][pypi-v-image]][pypi-v-link]
+[![Build Status][travis-image]][travis-link]
 
 ### Install  
 - pip  
@@ -45,3 +46,5 @@ bagua.show(1)
 [pypi-dl-link]: https://pypi.python.org/pypi/BaGua
 [pypi-v-image]: https://img.shields.io/pypi/v/BaGua.png
 [pypi-v-link]: https://pypi.python.org/pypi/BaGua
+[travis-image]: https://img.shields.io/travis/FloydaGithub/BaGua/master.png
+[travis-link]: https://travis-ci.org/FloydaGithub/BaGua
