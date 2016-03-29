@@ -2,10 +2,10 @@
 > 科学占卜, 计算机算命.
 
 ### Install  
-1. pip  
+- pip  
 `pip install bagua`  
 
-2. local  
+- local  
 ```shell
 git clone https://github.com/FloydaGithub/BaGua.git
 cd BaGua
@@ -13,7 +13,7 @@ python setup.py install
 ```
 
 ### Usage  
-1. Termianl  
+- Termianl  
 ```shell
 $ bagua
 Usage:
@@ -32,7 +32,7 @@ $ bagua 1
 http://baike.fututa.com/a5738/
 ```
 
-2. Python Library  
+- Python Library  
 ```
 import bagua
 bagua.show(1)
