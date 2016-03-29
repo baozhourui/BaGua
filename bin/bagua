@@ -4,7 +4,7 @@
 """BaGua
 
 Usage:
-  bagua <cheatsheet>
+  bagua <index>
   bagua -r
   bagua -s <keyword>
   bagua -v 
@@ -20,7 +20,7 @@ Examples:
 
 Options:
   -r --random       卜一卦
-  -s --search       Search cheatsheets for <keyword>
+  -s --search       Search index for <keyword>
   -v --version      Print the version number
 """
 
@@ -35,7 +35,7 @@ if __name__ == '__main__':
 		print shake_gua64()
 	elif options["--search"]:
 		print "search :", options['<keyword>']
-	# elif options["<cheatsheet>"] is None:
+	# elif options["<index>"] is None:
 	# 	print shake_gua64()
 	else:
-		show(int(options["<cheatsheet>"]))
+		show(int(options["<index>"]))
