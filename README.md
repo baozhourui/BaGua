@@ -1,6 +1,9 @@
 # BaGua
 > 科学占卜, 计算机算命.
 
+[![PyPI Downloads][pypi-dl-image]][pypi-dl-link]
+[![PyPI Version][pypi-v-image]][pypi-v-link]
+
 ### Install  
 - pip  
 `pip install bagua`  
@@ -37,3 +40,8 @@ http://baike.fututa.com/a5738/
 import bagua
 bagua.show(1)
 ```
+
+[pypi-dl-image]: https://img.shields.io/pypi/dm/BaGua.png
+[pypi-dl-link]: https://pypi.python.org/pypi/BaGua
+[pypi-v-image]: https://img.shields.io/pypi/v/BaGua.png
+[pypi-v-link]: https://pypi.python.org/pypi/BaGua
