@@ -5,11 +5,15 @@
 [![PyPI Version][pypi-v-image]][pypi-v-link]
 [![Build Status][travis-image]][travis-link]
 
+### Environment
+- Python  
+    2.7
+
 ### Install  
 - pip  
 `pip install bagua`  
 
-- local  
+- location
 ```shell
 git clone https://github.com/FloydaGithub/BaGua.git
 cd BaGua
