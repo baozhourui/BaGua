@@ -1,12 +1,10 @@
 ﻿#-*- encoding: UTF-8 -*-
 from setuptools import setup, find_packages
-
 import bagua
-VERSION = bagua.VERSION
 
 setup(
     name         = 'BaGua',
-    version      = VERSION,
+    version      = bagua.__version__,
     author       = 'Floyda',
     author_email = 'floyda@163.com',
     license      = 'MIT',
@@ -14,7 +12,6 @@ setup(
     long_description = '科学占卜, 计算机算命...',
     keywords='chinese bagua yijing zhouyi',
     url          = 'https://github.com/FloydaGithub/BaGua',
-    # packages=find_packages(),
     packages=[
         'bagua',
         'bagua.docs',
@@ -23,8 +20,6 @@ setup(
         'bagua.docs': ['*.txt'],
         'bagua': ['*.txt'],
     },
-    # include_package_data=True,
-    # zip_safe=True,
     install_requires = [
         'docopt >= 0.6.1',
     ],
