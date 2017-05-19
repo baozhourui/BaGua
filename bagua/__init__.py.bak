@@ -1,2 +1,2 @@
 __version__ = '0.1.4'
-from .bagua import *
+from bagua import *
