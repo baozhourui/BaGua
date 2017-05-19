@@ -1,3 +1,4 @@
+
 # BaGua
 > 科学占卜, 计算机算命.
 
@@ -6,12 +7,13 @@
 [![Build Status][travis-image]][travis-link]
 
 ### Environment
-- Python  
-    2.7
+- Python
+    - 2.7
+    - 3.3
 
-### Install  
-- pip  
-`pip install bagua`  
+### Install
+- pip
+`pip install bagua`
 
 - location
 ```shell
@@ -20,8 +22,8 @@ cd BaGua
 python setup.py install
 ```
 
-### Usage  
-- Termianl  
+### Usage
+- Termianl
 ```shell
 $ bagua
 Usage:
@@ -40,7 +42,7 @@ $ bagua 1
 http://baike.fututa.com/a5738/
 ```
 
-- Python Library  
+- Python Library
 ```
 import bagua
 bagua.show(1)
